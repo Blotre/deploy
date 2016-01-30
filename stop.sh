@@ -1,2 +1,6 @@
-test -f RUNNING_PID && kill `cat RUNNING_PID` && sleep 5;
-rm RUNNING_PID;
+#!/bin/bash
+. config.sh
+PID_FILE=./target/universal/stage/RUNNING_PID
+
+test -f $PID_FILE && kill `cat $PID_FILE` && sleep 5;
+rm $PID_FILE;
