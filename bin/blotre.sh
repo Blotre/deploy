@@ -74,7 +74,8 @@
 # Script arguments (start, stop, restart or status)
 COMMAND=$1
 
-. ../config.sh
+CWD="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+. $CWD/../config.sh
 
 # ***********************************************
 # ***********************************************
