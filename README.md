@@ -1,4 +1,4 @@
-Blot're deployment scripts
+# Blot're deployment scripts
 
 Simple server scripts used to deploy and manage the [Blot're][blotre] [Play framework][play] application.
 
@@ -9,7 +9,6 @@ Simple server scripts used to deploy and manage the [Blot're][blotre] [Play fram
 
 ## Management
 Use `bin/blotre.sh` to manage the running instance. Supported commands are: status, stop, start, restart.
-
 
 
 ## Credits
