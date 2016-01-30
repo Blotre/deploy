@@ -3,7 +3,7 @@
 # Global settings
 NAME=blotre
 PORT=9090
-TARGET_DIR=/home/blotre/target/universal
+TARGET_DIR=/home/blotre/blotre/target/universal
 APP_DIR=$TARGET_DIR/stage
 
 
