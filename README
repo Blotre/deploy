@@ -1,0 +1,8 @@
+Blot're deployment scripts
+
+Simple server scripts used to deploy the [Blot're][blotre] Play framework application.
+
+Based on https://gist.github.com/gre/5528826.
+
+
+[blotre]: https://blot.re
